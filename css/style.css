@@ -7,6 +7,7 @@
   --ternary: #898989;
   --light: #f2f2f2;
   --secondary: #070606;
+  --dusk: #bab8b8;
 }
 
 body {
@@ -149,7 +150,7 @@ section.about .social {
 }
 
 section.about .social a {
-  background: var(--dark);
+  background: var(--dusk);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -500,6 +501,7 @@ footer .footer-socials {
   margin-bottom: 3rem;
   margin-right: -1rem;
 }
+
 
 footer .copyright {
   color: var(--ternary);
